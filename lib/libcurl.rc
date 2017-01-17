@@ -51,7 +51,7 @@ BEGIN
       VALUE "OriginalFilename", "libcurl.dll\0"
       VALUE "ProductName",      "The curl library\0"
       VALUE "ProductVersion",   LIBCURL_VERSION "\0"
-      VALUE "LegalCopyright",   "\xA9 " LIBCURL_COPYRIGHT "\0"
+      VALUE "LegalCopyright",   "\xA9 " LIBCURL_COPYRIGHT "\0"  /* \xA9 = Copyright symbol in Windows-1250 code page */
       VALUE "License",          "https://curl.haxx.se/docs/copyright.html\0"
     END
   END

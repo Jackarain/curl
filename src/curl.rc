@@ -51,7 +51,7 @@ BEGIN
       VALUE "OriginalFilename", "curl.exe\0"
       VALUE "ProductName",      "The curl executable\0"
       VALUE "ProductVersion",   CURL_VERSION "\0"
-      VALUE "LegalCopyright",   "\xA9 " CURL_COPYRIGHT "\0"
+      VALUE "LegalCopyright",   "\xA9 " CURL_COPYRIGHT "\0"  /* \xA9 = Copyright symbol in Windows-1250 code page */
       VALUE "License",          "https://curl.haxx.se/docs/copyright.html\0"
     END
   END
